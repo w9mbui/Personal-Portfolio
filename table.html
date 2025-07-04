@@ -1,69 +1,95 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-</head>
+  </head>
 
-<body>
+  <body>
     <h2>Interests</h2>
     <table border="2">
-        <h2>Students Records</h2>
-        <tr>
-            <th>Name</th>
-            <th>Age</th>
-            <th>Email</th>
-        </tr>
-        <tr>
-            <td>John Doe</td>
-            <td>11 Years</td>
-            <td>john@gmail.com</td>
-        </tr>
-        <tr>
-            <td>Jane Doe</td>
-            <td>12 Years</td>
-            <td>jane@gmail.com</td>
-        </tr>
+      <h2>Students Records</h2>
+      <tr>
+        <th>Name</th>
+        <th>Age</th>
+        <th>Email</th>
+      </tr>
+      <tr>
+        <td>John Doe</td>
+        <td>11 Years</td>
+        <td>john@gmail.com</td>
+      </tr>
+      <tr>
+        <td>Jane Doe</td>
+        <td>12 Years</td>
+        <td>jane@gmail.com</td>
+      </tr>
     </table>
-    <table>
-        <h2>Simple Timetable</h2>
-        <table border="3">
-            <tr>
-                <th>Time</th>
-                <th>Monday</th>
-                <th>Tuesday</th>
-                <th>Wednesday</th>
-                <th>Thursday</th>
-                <th>Friday</th>
-            </tr>
-            <tr>
-                <td>8am-9am</td>
-                <td>Maths</td>
-                <td>Englsih</td>
-                <td>History</td>
-                <td>French</td>
-                <td>Music</td>
-            </tr>
-            <tr>
-                <td>9am-10am</td>
-                <td>Maths</td>
-                <td>Computer Science</td> 
-                <td>Chemistry</td>
-                <td>Spanish</td>
-                <td>Physics</td>
-            </tr>
-            <tr>
-                <td>9am-10am</td>
-                <td>Maths</td>
-                <td>Computer Science</td> 
-                <td>Chemistry</td>
-                <td>Spanish</td>
-                <td>Physics</td>
-            </tr>
-        </table>
-    </table>
-</body>
 
+    <h2>Simple Timetable</h2>
+    <table border="5">
+      <tr>
+        <th>Time</th>
+        <th>Monday</th>
+        <th>Tuesday</th>
+        <th>Wednesday</th>
+        <th>Thursday</th>
+        <th>Friday</th>
+      </tr>
+      <tr>
+        <td>8am-9am</td>
+        <td rowspan="2">Maths</td>
+        <td>Englsih</td>
+        <td>History</td>
+        <td>French</td>
+        <td>Music</td>
+      </tr>
+      <tr>
+        <td>9am-10am</td>
+        <!-- <td>Maths</td> -->
+        <td>Computer Science</td>
+        <td>Chemistry</td>
+        <td rowspan="2">Spanish</td>
+        <td>Physics</td>
+      </tr>
+      <tr>
+        <td>9am-10am</td>
+        <td>English</td>
+        <td>Biology</td>
+        <td>Swahili</td>
+        <!-- <td>Spanish</td> -->
+        <td>Business</td>
+      </tr>
+    </table>
+
+    <table border="10">
+      <h1>Monthly Expenditure</h1>
+      <tr>
+        <th>Expenses</th>
+        <th>Jan</th>
+        <th>Feb</th>
+        <th>Mar</th>
+      </tr>
+      <tr>
+        <td>Rent</td>
+        <td colspan="3" style="text-align: center;">Ksh.20000</td>
+        <!-- <td>Ksh.20000</td> -->
+        <!-- <td>Ksh.20000</td> -->
+      </tr>
+      <tr>
+        <td>Groceries</td>
+        <td>Ksh.2000</td>
+        <td>Ksh.3000</td>
+        <td>Ksh.4000</td>
+      </tr>
+      <tr>
+        <td>Shopping</td>
+        <td>Ksh.6000</td>
+        <td colspan="2" style="text-align: center;">Ksh.8000</td>
+        <!-- <td>Ksh.8000</td> -->
+      </tr>
+    </table>
+    <a href="tablelist.html">Listing</a>
+  </body>
 </html>
